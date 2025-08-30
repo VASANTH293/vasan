@@ -4,8 +4,4 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"message": "Hello from FastAPI on Vercel!"}
-
-@app.get("/hello/{name}")
-def hello_name(name: str):
-    return {"message": f"Hello {name}!"}
+    return {"message": "Hello from FastAPI on Render!"}
